@@ -1,25 +1,31 @@
 {
   "name": "Ultimate Guitar Search",
-  "version": "0.1",
+  "version": "0.2",
   "description": "Highlighted text can be searched on Ultimate Guitar",
   "permissions": ["declarativeContent", "storage", "contextMenus"],
   "manifest_version": 2,
+  "icons": {
+    "16": "images/logo16.png",
+    "32": "images/logo32.png",
+    "48": "images/logo48.png",
+    "128": "images/logo128.png"
+  },
   "background": {
-    "scripts": ["eventPage.js"],
+    "scripts": ["background.js"],
     "persistent": false
   },
   "page_action": {
     "default_icon": {
-      "16": "images/get_started16.png",
-      "32": "images/get_started32.png",
-      "48": "images/get_started48.png",
-      "128": "images/get_started128.png"
+      "16": "images/logo16.png",
+      "32": "images/logo32.png",
+      "48": "images/logo48.png",
+      "128": "images/logo128.png"
     },
     "icons": {
-      "16": "images/get_started16.png",
-      "32": "images/get_started32.png",
-      "48": "images/get_started48.png",
-      "128": "images/get_started128.png"
+      "16": "images/logo16.png",
+      "32": "images/logo32.png",
+      "48": "images/logo48.png",
+      "128": "images/logo128.png"
     }
   }
 }
